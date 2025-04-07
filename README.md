@@ -1,4 +1,4 @@
-Comandos:
+## Comandos:
 
-git init
-git remote add origin <caminho-repositorio>
+### git init
+### git remote add origin...
