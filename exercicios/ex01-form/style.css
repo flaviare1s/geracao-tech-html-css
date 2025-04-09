@@ -6,6 +6,7 @@
 
 h1 {
     margin: 10px;
+    text-align: center;
 }
 
 body {
@@ -22,6 +23,13 @@ form {
     padding: 20px;
     max-width: 600px;
     margin: 20px;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 5px 10px;
+    border-radius: 5px;
+    border: 1px solid black;
 }
 
 .form-group {
@@ -48,6 +56,12 @@ input[type="radio"] {
     display: flex;
     align-items: center;
     gap: 2px;
+}
+
+.radio-group {
+    display: flex;
+    align-items: center;
+    gap: 10px;
 }
 
 .sobre {
@@ -86,4 +100,12 @@ button {
 
 .custom-radio:checked + .custom-label::before {
     background-color: gray;
+}
+
+@media screen and (max-width: 400px) {
+    .column {
+        flex-direction: column;
+        align-items: start;
+        margin: 15px 0;
+    }
 }
