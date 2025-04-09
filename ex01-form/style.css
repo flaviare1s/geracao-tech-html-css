@@ -39,6 +39,10 @@ input:hover::placeholder {
     color: gray;
 }
 
+input[type="radio"] {
+    accent-color: gray;
+}
+
 .radio {
     display: flex;
     align-items: center;
